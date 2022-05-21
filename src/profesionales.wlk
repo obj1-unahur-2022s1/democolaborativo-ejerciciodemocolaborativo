@@ -2,7 +2,7 @@
 class ProfesionalAsociado {
 	var universidad
 	
-	method universidad()= universidad 
+	method universidad() { return universidad } 
 
 	method universidad(univ) { universidad = univ }
 	
