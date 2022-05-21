@@ -2,10 +2,11 @@
 class ProfesionalAsociado {
 	var universidad
 	
-	method universidad() { return universidad } // Esta es una forma más linda
+	method universidad()= universidad 
+
 	method universidad(univ) { universidad = univ }
 	
-	method provinciasDondePuedeTrabajar() { return #{"Entre Ríos", "Corrientes", "Santa Fe"} }
+	method provinciasDondePuedeTrabajar()= #{"Entre Ríos", "Corrientes", "Santa Fe"}
 	
 	method honorariosPorHora() { return 2000 }
 }
@@ -15,7 +16,8 @@ class ProfesionalAsociado {
 class ProfesionalVinculado {
 	var universidad
 	
-	method universidad() { return universidad } // Esta es una forma más linda
+	method universidad()= universidad
+
 	method universidad(univ) { universidad = univ }
 }
 
@@ -24,6 +26,7 @@ class ProfesionalVinculado {
 class ProfesionalLibre {
 	var universidad
 	
-	method universidad() { return universidad } // Esta es una forma más linda
+	method universidad() = universidad
+
 	method universidad(univ) { universidad = univ }
 }
