@@ -2,7 +2,9 @@
 class ProfesionalAsociado {
 	var universidad
 	
-	method universidad()= universidad // No me gusta el igual
+
+	method universidad() { return universidad } 
+
 	method universidad(univ) { universidad = univ }
 	
 	method provinciasDondePuedeTrabajar()= #{"Entre Ríos", "Corrientes", "Santa Fe"} // No me gusta el igual
@@ -15,7 +17,10 @@ class ProfesionalAsociado {
 class ProfesionalVinculado {
 	var universidad
 	
-	method universidad()= universidad // No me gusta el igual
+
+	method universidad()= universidad
+
+
 	method universidad(univ) { universidad = univ }
 }
 
@@ -24,6 +29,8 @@ class ProfesionalVinculado {
 class ProfesionalLibre {
 	var universidad
 	
-	method universidad() = universidad // No me gusta el igual
+
+	method universidad() = universidad
+
 	method universidad(univ) { universidad = univ }
 }
